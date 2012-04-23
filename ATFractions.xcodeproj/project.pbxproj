@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CE9F731545D75F008CECBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE9F721545D75F008CECBF /* UIKit.framework */; };
+		30CE9F751545D75F008CECBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE9F741545D75F008CECBF /* Foundation.framework */; };
+		30CE9F771545D75F008CECBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE9F761545D75F008CECBF /* CoreGraphics.framework */; };
+		30CE9F7D1545D75F008CECBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30CE9F7B1545D75F008CECBF /* InfoPlist.strings */; };
+		30CE9F7F1545D75F008CECBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE9F7E1545D75F008CECBF /* main.m */; };
+		30CE9F831545D75F008CECBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE9F821545D75F008CECBF /* AppDelegate.m */; };
+		30CE9F861545D75F008CECBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE9F851545D75F008CECBF /* ViewController.m */; };
+		30CE9F891545D75F008CECBF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CE9F871545D75F008CECBF /* ViewController.xib */; };
+		30CE9F911545D75F008CECBF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE9F901545D75F008CECBF /* SenTestingKit.framework */; };
+		30CE9F921545D75F008CECBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE9F721545D75F008CECBF /* UIKit.framework */; };
+		30CE9F931545D75F008CECBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE9F741545D75F008CECBF /* Foundation.framework */; };
+		30CE9F9B1545D75F008CECBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30CE9F991545D75F008CECBF /* InfoPlist.strings */; };
+		30CE9F9E1545D75F008CECBF /* ATFractionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE9F9D1545D75F008CECBF /* ATFractionsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30CE9F941545D75F008CECBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CE9F651545D75F008CECBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CE9F6D1545D75F008CECBF;
+			remoteInfo = ATFractions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30CE9F6E1545D75F008CECBF /* ATFractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATFractions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CE9F721545D75F008CECBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30CE9F741545D75F008CECBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30CE9F761545D75F008CECBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30CE9F7A1545D75F008CECBF /* ATFractions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATFractions-Info.plist"; sourceTree = "<group>"; };
+		30CE9F7C1545D75F008CECBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30CE9F7E1545D75F008CECBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30CE9F801545D75F008CECBF /* ATFractions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ATFractions-Prefix.pch"; sourceTree = "<group>"; };
+		30CE9F811545D75F008CECBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30CE9F821545D75F008CECBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30CE9F841545D75F008CECBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30CE9F851545D75F008CECBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30CE9F881545D75F008CECBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		30CE9F8F1545D75F008CECBF /* ATFractionsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATFractionsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CE9F901545D75F008CECBF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		30CE9F981545D75F008CECBF /* ATFractionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATFractionsTests-Info.plist"; sourceTree = "<group>"; };
+		30CE9F9A1545D75F008CECBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30CE9F9C1545D75F008CECBF /* ATFractionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATFractionsTests.h; sourceTree = "<group>"; };
+		30CE9F9D1545D75F008CECBF /* ATFractionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATFractionsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CE9F6B1545D75F008CECBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CE9F731545D75F008CECBF /* UIKit.framework in Frameworks */,
+				30CE9F751545D75F008CECBF /* Foundation.framework in Frameworks */,
+				30CE9F771545D75F008CECBF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CE9F8B1545D75F008CECBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CE9F911545D75F008CECBF /* SenTestingKit.framework in Frameworks */,
+				30CE9F921545D75F008CECBF /* UIKit.framework in Frameworks */,
+				30CE9F931545D75F008CECBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CE9F631545D75F008CECBF = {
+			isa = PBXGroup;
+			children = (
+				30CE9F781545D75F008CECBF /* ATFractions */,
+				30CE9F961545D75F008CECBF /* ATFractionsTests */,
+				30CE9F711545D75F008CECBF /* Frameworks */,
+				30CE9F6F1545D75F008CECBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CE9F6F1545D75F008CECBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CE9F6E1545D75F008CECBF /* ATFractions.app */,
+				30CE9F8F1545D75F008CECBF /* ATFractionsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CE9F711545D75F008CECBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30CE9F721545D75F008CECBF /* UIKit.framework */,
+				30CE9F741545D75F008CECBF /* Foundation.framework */,
+				30CE9F761545D75F008CECBF /* CoreGraphics.framework */,
+				30CE9F901545D75F008CECBF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30CE9F781545D75F008CECBF /* ATFractions */ = {
+			isa = PBXGroup;
+			children = (
+				30CE9F811545D75F008CECBF /* AppDelegate.h */,
+				30CE9F821545D75F008CECBF /* AppDelegate.m */,
+				30CE9F841545D75F008CECBF /* ViewController.h */,
+				30CE9F851545D75F008CECBF /* ViewController.m */,
+				30CE9F871545D75F008CECBF /* ViewController.xib */,
+				30CE9F791545D75F008CECBF /* Supporting Files */,
+			);
+			path = ATFractions;
+			sourceTree = "<group>";
+		};
+		30CE9F791545D75F008CECBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30CE9F7A1545D75F008CECBF /* ATFractions-Info.plist */,
+				30CE9F7B1545D75F008CECBF /* InfoPlist.strings */,
+				30CE9F7E1545D75F008CECBF /* main.m */,
+				30CE9F801545D75F008CECBF /* ATFractions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30CE9F961545D75F008CECBF /* ATFractionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				30CE9F9C1545D75F008CECBF /* ATFractionsTests.h */,
+				30CE9F9D1545D75F008CECBF /* ATFractionsTests.m */,
+				30CE9F971545D75F008CECBF /* Supporting Files */,
+			);
+			path = ATFractionsTests;
+			sourceTree = "<group>";
+		};
+		30CE9F971545D75F008CECBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30CE9F981545D75F008CECBF /* ATFractionsTests-Info.plist */,
+				30CE9F991545D75F008CECBF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CE9F6D1545D75F008CECBF /* ATFractions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CE9FA11545D75F008CECBF /* Build configuration list for PBXNativeTarget "ATFractions" */;
+			buildPhases = (
+				30CE9F6A1545D75F008CECBF /* Sources */,
+				30CE9F6B1545D75F008CECBF /* Frameworks */,
+				30CE9F6C1545D75F008CECBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATFractions;
+			productName = ATFractions;
+			productReference = 30CE9F6E1545D75F008CECBF /* ATFractions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30CE9F8E1545D75F008CECBF /* ATFractionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CE9FA41545D75F008CECBF /* Build configuration list for PBXNativeTarget "ATFractionsTests" */;
+			buildPhases = (
+				30CE9F8A1545D75F008CECBF /* Sources */,
+				30CE9F8B1545D75F008CECBF /* Frameworks */,
+				30CE9F8C1545D75F008CECBF /* Resources */,
+				30CE9F8D1545D75F008CECBF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CE9F951545D75F008CECBF /* PBXTargetDependency */,
+			);
+			name = ATFractionsTests;
+			productName = ATFractionsTests;
+			productReference = 30CE9F8F1545D75F008CECBF /* ATFractionsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CE9F651545D75F008CECBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 30CE9F681545D75F008CECBF /* Build configuration list for PBXProject "ATFractions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30CE9F631545D75F008CECBF;
+			productRefGroup = 30CE9F6F1545D75F008CECBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CE9F6D1545D75F008CECBF /* ATFractions */,
+				30CE9F8E1545D75F008CECBF /* ATFractionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CE9F6C1545D75F008CECBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CE9F7D1545D75F008CECBF /* InfoPlist.strings in Resources */,
+				30CE9F891545D75F008CECBF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CE9F8C1545D75F008CECBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CE9F9B1545D75F008CECBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30CE9F8D1545D75F008CECBF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CE9F6A1545D75F008CECBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CE9F7F1545D75F008CECBF /* main.m in Sources */,
+				30CE9F831545D75F008CECBF /* AppDelegate.m in Sources */,
+				30CE9F861545D75F008CECBF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CE9F8A1545D75F008CECBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CE9F9E1545D75F008CECBF /* ATFractionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30CE9F951545D75F008CECBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CE9F6D1545D75F008CECBF /* ATFractions */;
+			targetProxy = 30CE9F941545D75F008CECBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30CE9F7B1545D75F008CECBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CE9F7C1545D75F008CECBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30CE9F871545D75F008CECBF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CE9F881545D75F008CECBF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		30CE9F991545D75F008CECBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CE9F9A1545D75F008CECBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CE9F9F1545D75F008CECBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30CE9FA01545D75F008CECBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CE9FA21545D75F008CECBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATFractions/ATFractions-Prefix.pch";
+				INFOPLIST_FILE = "ATFractions/ATFractions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30CE9FA31545D75F008CECBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATFractions/ATFractions-Prefix.pch";
+				INFOPLIST_FILE = "ATFractions/ATFractions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30CE9FA51545D75F008CECBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ATFractions.app/ATFractions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATFractions/ATFractions-Prefix.pch";
+				INFOPLIST_FILE = "ATFractionsTests/ATFractionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		30CE9FA61545D75F008CECBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ATFractions.app/ATFractions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATFractions/ATFractions-Prefix.pch";
+				INFOPLIST_FILE = "ATFractionsTests/ATFractionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CE9F681545D75F008CECBF /* Build configuration list for PBXProject "ATFractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CE9F9F1545D75F008CECBF /* Debug */,
+				30CE9FA01545D75F008CECBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CE9FA11545D75F008CECBF /* Build configuration list for PBXNativeTarget "ATFractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CE9FA21545D75F008CECBF /* Debug */,
+				30CE9FA31545D75F008CECBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30CE9FA41545D75F008CECBF /* Build configuration list for PBXNativeTarget "ATFractionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CE9FA51545D75F008CECBF /* Debug */,
+				30CE9FA61545D75F008CECBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CE9F651545D75F008CECBF /* Project object */;
+}
